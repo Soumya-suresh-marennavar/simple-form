@@ -1,0 +1,13 @@
+body{
+    color:white;
+    background-color:black;
+  }
+  h1{
+   padding:2px;
+   margin:1px;
+   border:1px solid white; text-align:center;  
+  }
+  #submit:hover{
+      background-color: rgb(83, 83, 162);
+      color: white;
+  }
