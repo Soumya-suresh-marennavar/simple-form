@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Survey Form</title>
+   <meta charset="utf-8"> 
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1 id="title">Form</html>
+  <p id="description">this form is about feedback please kindly fill it.</p>
+ <form id="survey-form">
+   <fieldset>
+     <legend>your details</legend>
+     <div>
+   <label id="name-label" for="name">user name</label>
+  <input id="name" type="text" name="name" placeholder="enter your name" required>
+  </div>
+  <div>
+  <label id="email-label" for="email">user email</label>
+  <input id="email" type="email" name="email" placeholder="enter your email" required>
+  </div>
+  <div>
+  <label id="number-label" for="number">user number</label>
+  <input min="8" max="10" id="number" type="number" name="number" placeholder="enter your number">
+  </div>
+  </fieldset>
+  <fieldset>
+    <legend>how much did this website helped you</legend>
+    <select id="dropdown">
+      <option>College level</option>
+      <option>Buissiness level</option>
+      <option>Placement level</option>
+      <option>Interview level</option>
+     </select> 
+  </fieldset>
+  <fieldset>
+    <legend>about youself</legend>
+    <div>
+    <label for="gender">
+    <input id="gender" type="radio" name="gender" value="yes">
+    male</label>
+    <label for="gender">
+    <input id="gender" type="radio" name="gender" value="yes">
+    female</label>
+    </div>
+    <div>
+      <label for="age"><input id="age" type="radio" name="age" value="yes">
+        18 above</label>
+    <label for="age">
+      <input id="age" type="radio" name="age" value="yes">18below
+    </label>
+    </div>
+    </fieldset> 
+    <fieldset>
+      <legend>about terms and conditions</legend>
+      <div>
+      <a href="codecodes">terms and conditions</a>
+      </div>
+      <label for="T&C">
+        <input id="T&C" type="checkbox" name="agree" value="yes">
+        I agree</label>
+        <label for="T&C">
+        <input id="T&C" type="checkbox" name="disagree" value="yes">
+        disagree</label>
+      </fieldset>
+      <textarea>about your coding experience with us...</textarea>
+     <div><input type="submit" id="submit"></div>
+   </form>
+</body>  
+</html>
